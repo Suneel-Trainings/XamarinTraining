@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{DF2D79EA-2B49-4B80-BFD9-B1271CEC9B4C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AsyncExample/Program1.cs">
+    <Files>
+      <File FileName="AsyncExample/Program.cs" Line="92" Column="7" />
+      <File FileName="AsyncExample/Program1.cs" Line="273" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AsyncExample" expanded="True">
+            <Node name="AsyncExample" expanded="True">
+              <Node name="Program1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AsyncExample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/AsyncExample/AsyncExample/Program1.cs" relfile="AsyncExample/Program1.cs" line="92" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/AsyncExample/AsyncExample/Program.cs" relfile="AsyncExample/Program.cs" line="59" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

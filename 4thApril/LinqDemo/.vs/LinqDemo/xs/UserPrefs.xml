@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{5CC894C1-D3FA-4132-B3EF-0B08740ACA98}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LinqDemo/Program.cs">
+    <Files>
+      <File FileName="LinqDemo/Program.cs" Line="30" Column="10" />
+      <File FileName="LinqDemo/Program.cs" Line="6" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LinqDemo" expanded="True">
+            <Node name="LinqDemo" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LinqDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/LinqDemo/LinqDemo/Program1.cs" relfile="LinqDemo/Program1.cs" line="64" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/LinqDemo/LinqDemo/Program1.cs" relfile="LinqDemo/Program1.cs" line="421" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
