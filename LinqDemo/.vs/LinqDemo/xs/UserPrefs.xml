@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{8D5F03FE-5651-4132-A2A2-F53EC23B08B2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoreLinqDemo/Program.cs">
+    <Files>
+      <File FileName="LinqDemo/Program.cs" Line="9" Column="10" />
+      <File FileName="MoreLinqDemo/Program.cs" Line="28" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LinqDemo" expanded="True">
+            <Node name="MoreLinqDemo" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="morelinq" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LinqDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/LinqDemo/LinqDemo/Program1.cs" relfile="LinqDemo/Program1.cs" line="65" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/LinqDemo/LinqDemo/Program1.cs" relfile="LinqDemo/Program1.cs" line="422" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/LinqDemo/LinqDemo/Program.cs" relfile="LinqDemo/Program.cs" line="73" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/LinqDemo/LinqDemo/Program.cs" relfile="LinqDemo/Program.cs" line="49" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MoreLinqDemo PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

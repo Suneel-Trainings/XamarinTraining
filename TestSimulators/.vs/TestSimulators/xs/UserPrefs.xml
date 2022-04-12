@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{6268958B-F651-4C27-802B-13B970D4B7ED}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestSimulators.Android PreferredExecutionTarget="Android.RZ8R316Y3XX" />
+  <MonoDevelop.Ide.ItemProperties.TestSimulators.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A7318614-B197-42CD-8115-290A039796FF" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestSimulators/AssemblyInfo.cs">
+    <Files>
+      <File FileName="TestSimulators/App.xaml" Line="14" Column="1" />
+      <File FileName="TestSimulators/Renderers/CustomPicker.cs" />
+      <File FileName="TestSimulators/TestControls.xaml" />
+      <File FileName="TestSimulators/TestControls.xaml.cs" Line="90" Column="14" />
+      <File FileName="TestSimulators.Android/MainActivity.cs" />
+      <File FileName="TestSimulators/MainPage.xaml" />
+      <File FileName="TestSimulators/Renderers/MyEntry.cs" />
+      <File FileName="TestSimulators.Android/Renderers/MyEntryRenderer.cs" />
+      <File FileName="TestSimulators/Effects/BorderLineEffect.cs" />
+      <File FileName="TestSimulators.Android/Effects/AndroidBorderLineEffect.cs" />
+      <File FileName="TestSimulators.iOS/Renderers/MyEntryRenderer.cs" />
+      <File FileName="TestSimulators.iOS/Effects/iOSBorderLineEffect.cs" />
+      <File FileName="TestSimulators.iOS/Renderers/CustomButtonRenderer.cs" />
+      <File FileName="TestSimulators/Themes/DarkTheme.xaml" />
+      <File FileName="TestSimulators/Themes/DarkTheme.xaml.cs" />
+      <File FileName="TestSimulators/Themes/LightTheme.xaml.cs" />
+      <File FileName="TestSimulators/Themes/LightTheme.xaml" />
+      <File FileName="TestSimulators/AssemblyInfo.cs" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestSimulators" expanded="True">
+            <Node name="TestSimulators" expanded="True">
+              <Node name="AssemblyInfo.cs" selected="True" />
+              <Node name="TestControls.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/TestSimulators/TestSimulators/MyPage.cs" relfile="TestSimulators/MyPage.cs" line="29" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/TestSimulators/TestSimulators/MyPage.cs" relfile="TestSimulators/MyPage.cs" line="12" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/TestSimulators/TestSimulators/TestControls.xaml.cs" relfile="TestSimulators/TestControls.xaml.cs" line="98" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

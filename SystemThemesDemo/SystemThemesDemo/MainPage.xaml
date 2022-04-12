@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SystemThemesDemo.MainPage"
+             BackgroundColor="{AppThemeBinding Light={StaticResource LightPageBackgroundColor}, Dark={StaticResource DarkPageBackgroundColor}}">
+
+    <StackLayout Spacing="10">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label x:Name="lblCurrentTheme" TextColor="Red"/>
+
+        <Label Text="Observe theme response on this label"
+               FontSize="Title"
+               Padding="30,10,30,10"
+               Style="{StaticResource LargeLabelStyle}"/>
+
+        <Button Text="Light Theme" TextColor="Black" Clicked="LightTheme_Clicked"/>
+        <Button Text="Dark Theme" TextColor="Black" Clicked="DarkTheme_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

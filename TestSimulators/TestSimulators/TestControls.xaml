@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TestSimulators.Renderers"
+    xmlns:theme="clr-namespace:TestSimulators"
+    xmlns:effects="clr-namespace:TestSimulators.Effects"
+    x:Class="TestSimulators.TestControls"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    Title="First Page"
+    BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="Green"/>
+                <Setter Property="BackgroundColor" Value="Gray"/>
+                <Setter Property="IsEnabled" Value="True"/>
+                <Setter Property="IsVisible" Value="True"/>
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+
+            <Style x:Key="styleForSpecificEntry" TargetType="Entry">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BackgroundColor" Value="Orange"/>
+                <Setter Property="IsEnabled" Value="True"/>
+                <Setter Property="IsVisible" Value="True"/>
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="10,40,10,0"
+                     Spacing="20"
+                     HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand">
+
+            <Picker x:Name="pickerTheme"
+                          ios:Picker.UpdateMode="WhenFinished"
+                          Title="Select Theme"
+                          SelectedIndexChanged="OnPickerSelectionChanged" />
+
+            <local:MyEntry x:Name="entryUserName" Placeholder="Username" ShowBorder="True"/>
+            <local:MyEntry  x:Name="entryPassword" Placeholder="Password" IsPassword="True" ShowBorder="True"/>
+            <local:MyEntry  x:Name="entryVerifyPassword" Placeholder="Verify Password" IsPassword="True" ShowBorder="True"/>
+            <Entry x:Name="entryEmail" Placeholder="Email" Keyboard="Email">
+                <Entry.Effects>
+                    <effects:BorderLineEffect/>
+                </Entry.Effects>
+            </Entry>
+
+            <Entry x:Name="entryMobile" Placeholder="Mobile Number" Keyboard="Telephone">
+                <Entry.Effects>
+                    <effects:BorderLineEffect/>
+                </Entry.Effects>
+            </Entry>
+
+            <Editor Text="dummy text dummy text editor text" Style="{StaticResource styleForAllEditorInApp}" MaxLength="500"
+                    HeightRequest="100"/>
+
+            <Entry Text="dummy text" Style="{StaticResource styleForSpecificEntry}"/>
+
+            <local:CustomButton Text="Submit" BackgroundColor="Black" TextColor="Red" TextTransform="None" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

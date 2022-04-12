@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:trigger="clr-namespace:TriggersDemo"
+             x:Class="TriggersDemo.MainPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10,50,10,0">
+            <Label Text="Property Trigger" TextColor="Black"/>
+            <Entry Placeholder="Enter something" BackgroundColor="Silver" TextColor="Green">
+                <Entry.Triggers>
+                    <Trigger TargetType="Entry"
+                         Property="Text"
+                         Value="Test">
+                        <Setter Property="BackgroundColor" Value="Blue"/>
+                        <Setter Property="TextColor" Value="Yellow"/>
+                    </Trigger>
+                </Entry.Triggers>
+            </Entry>
+            <BoxView HeightRequest="2" HorizontalOptions="FillAndExpand" Color="Gray" Margin="0,10"/>
+            <Label Text="Data Trigger" TextColor="Black"/>
+            <Entry x:Name="entrySomething" Placeholder="Enter something 1" TextColor="Black" Text=""/>
+            <Entry Placeholder="Enter something 2">
+                <Entry.Triggers>
+                    <DataTrigger TargetType="Entry"
+                    Binding="{Binding Source={x:Reference entrySomething},
+                    Path=Text.Length}"
+                    Value="0">
+                        <Setter Property="IsEnabled" Value="False"/>
+                    </DataTrigger>
+                </Entry.Triggers>
+            </Entry>
+            <BoxView HeightRequest="2" HorizontalOptions="FillAndExpand" Color="Gray" Margin="0,10"/>
+            <Label Text="Event Trigger" TextColor="Black"/>
+            <Entry Placeholder="Enter something" TextColor="Black">
+                <Entry.Triggers>
+                    <EventTrigger Event="Completed">
+                        <trigger:TriggerActionDo/>
+                    </EventTrigger>
+                </Entry.Triggers>
+            </Entry>
+            <BoxView HeightRequest="2" HorizontalOptions="FillAndExpand" Color="Gray" Margin="0,10"/>
+            <Label Text="Multi Trigger" TextColor="Black"/>
+            <Entry x:Name="entrySomething10" Placeholder="Enter something 1" TextColor="Black" Text=""/>
+            <Entry Placeholder="Enter something 2" BackgroundColor="Red">
+                <Entry.Triggers>
+                    <MultiTrigger TargetType="Entry">
+                        <MultiTrigger.Conditions>
+                            <!--<BindingCondition Binding="{Binding Source={x:Reference entrySomething},
+                                                Path=Text}"
+                                                Value="Red" />-->
+                            <BindingCondition Binding="{Binding Source={x:Reference entrySomething10},
+                                                Path=Text}"
+                                                Value="Blue" />
+                        </MultiTrigger.Conditions>
+                        <Setter Property="BackgroundColor" Value="Blue"/>
+                    </MultiTrigger>
+                </Entry.Triggers>
+            </Entry>
+
+
+            <Entry x:Name="entryEmail" Placeholder="Email here" TextColor="Black" Completed="entryEmail_Completed" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

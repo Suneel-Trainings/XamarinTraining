@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:ai="clr-namespace:AiForms.Renderers;assembly=SettingsView"
+    xmlns:l="clr-namespace:AiForms.Layouts;assembly=AiForms.Layouts"
+    xmlns:ef="clr-namespace:AiForms.Effects;assembly=AiForms.Effects"
+    xmlns:me="clr-namespace:Sample.Views;assembly=SettingsSample"
+    x:Class="Sample.Views.RadioCellTest">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="11" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <StackLayout>
+        <ScrollView VerticalOptions="Start" HeightRequest="100" BackgroundColor="#FFFFFF">
+            <l:WrapLayout Spacing="4">
+                <Label Text="OwnAccentColor"      ef:AddCommand.On="true" ef:AddCommand.Command="{Binding CellChangeCommand}" ef:AddCommand.EffectColor="#80FFFF00" />
+                <Label Text="ToggleGlobal"        ef:AddCommand.On="true" ef:AddCommand.Command="{Binding CellChangeCommand}" ef:AddCommand.EffectColor="#80FFFF00" />
+                <Label Text="ChangeValue"         ef:AddCommand.On="true" ef:AddCommand.Command="{Binding CellChangeCommand}" ef:AddCommand.EffectColor="#80FFFF00" />
+            </l:WrapLayout>
+        </ScrollView>
+        <ScrollView VerticalOptions="Start" HeightRequest="100" BackgroundColor="#efefef">
+            <me:CellController />
+        </ScrollView>
+        <ScrollView VerticalOptions="Start" HeightRequest="100">
+            <me:ParentController />
+        </ScrollView>
+
+        <ai:SettingsView
+            BackgroundColor="{Binding BackgroundColor.Value}"
+            SeparatorColor="{Binding SeparatorColor.Value}"
+            SelectedColor="{Binding SelectedColor.Value}"
+            HeaderPadding="{Binding HeaderPadding.Value}"
+            HeaderTextColor="{Binding HeaderTextColor.Value}"
+            HeaderFontSize="{Binding HeaderFontSize.Value}"
+            HeaderTextVerticalAlign="{Binding HeaderTextVerticalAlign.Value}"
+            HeaderBackgroundColor="{Binding HeaderBackgroundColor.Value}"
+            HeaderHeight="{Binding HeaderHeight.Value}"
+            FooterTextColor="{Binding FooterTextColor.Value}"
+            FooterFontSize="{Binding FooterFontSize.Value}"
+            FooterBackgroundColor="{Binding FooterBackgroundColor.Value}"
+            FooterPadding="{Binding FooterPadding.Value}"
+            RowHeight="{Binding RowHeight.Value}"
+            HasUnevenRows="{Binding HasUnevenRows.Value}"
+            CellTitleColor="{Binding CellTitleColor.Value}"
+            CellTitleFontSize="{Binding CellTitleFontSize.Value}"
+            CellValueTextColor="{Binding CellValueTextColor.Value}"
+            CellValueTextFontSize="{Binding CellValueTextFontSize.Value}"
+            CellDescriptionColor="{Binding CellDescriptionColor.Value}"
+            CellDescriptionFontSize="{Binding CellDescriptionFontSize.Value}"
+            CellBackgroundColor="{Binding CellBackgroundColor.Value}"
+            CellIconSize="{Binding CellIconSize.Value}"
+            CellIconRadius="{Binding CellIconRadius.Value}"
+            CellAccentColor="{Binding CellAccentColor.Value}"
+            CellHintTextColor="{Binding CellHintTextColor.Value}"
+            CellHintFontSize="{Binding CellHintFontSize.Value}"
+            UseDescriptionAsValue="{Binding UseDescriptionAsValue.Value}"
+            ShowSectionTopBottomBorder="{Binding ShowSectionTopBottomBorder.Value}"
+            ai:RadioCell.SelectedValue="{Binding GlobalSelected.Value}"
+        >
+            <ai:Section Title="Section1" FooterText="Footer1" ai:RadioCell.SelectedValue="{Binding Selected.Value}" >
+                <ai:RadioCell IsEnabled="{Binding IsEnabled.Value}" 
+                              IconSource="{Binding IconSource.Value}" 
+                              Title="{Binding RadioItems[0].Name}"  
+                              HintText="{Binding HintText.Value}" 
+                              BackgroundColor="{Binding BgColor.Value}" 
+                              TitleColor="{Binding TitleColor.Value}" 
+                              TitleFontSize="{Binding TitleFontSize.Value}" 
+                              HintTextColor="{Binding HintTextColor.Value}" 
+                              HintFontSize="{Binding HintFontSize.Value}" 
+                              IconSize="{Binding IconSize.Value}" 
+                              IconRadius="{Binding IconRadius.Value}" 
+                              AccentColor="{Binding OwnAccentColor.Value}"
+                              Value="{Binding RadioItems[0]}"
+                              Tapped="Handle_Tapped"/>
+                <ai:RadioCell Title="{Binding RadioItems[1].Name}"  
+                              AccentColor="{Binding OwnAccentColor.Value}"
+                              Value="{Binding RadioItems[1]}" />
+                 <ai:RadioCell Title="{Binding RadioItems[2].Name}"  
+                              AccentColor="{Binding OwnAccentColor.Value}"
+                              Value="{Binding RadioItems[2]}" />
+
+           </ai:Section>
+            <ai:Section Title="Section1" FooterText="Footer1" >
+                <ai:RadioCell Title="{Binding RadioItems[3].Name}"  
+                              AccentColor="{Binding OwnAccentColor.Value}"
+                              Value="{Binding RadioItems[3]}" />
+                <ai:RadioCell Title="{Binding RadioItems[4].Name}"  
+                              AccentColor="{Binding OwnAccentColor.Value}"
+                              Value="{Binding RadioItems[4]}" />
+                <ai:RadioCell Title="{Binding RadioItems[5].Name}"  
+                              AccentColor="{Binding OwnAccentColor.Value}"
+                              Value="{Binding RadioItems[5]}" />
+            </ai:Section>
+        </ai:SettingsView>
+    </StackLayout>
+</ContentPage>

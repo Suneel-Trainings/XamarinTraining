@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{3A80C427-E606-4A03-ACE3-656C335249F8}|Default">
+  <MonoDevelop.Ide.ItemProperties.ListviewDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.54CC1754-128B-43C0-9ABD-871163D6175D" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="ListviewDemo/MainPage.xaml" Line="40" Column="32" />
+      <File FileName="ListviewDemo/MainPage.xaml.cs" Line="23" Column="1" />
+      <File FileName="ListviewDemo/StudentDTSelector.cs" Line="3" Column="1" />
+      <File FileName="ListviewDemo.Android/MainActivity.cs" Line="17" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ListviewDemo" expanded="True">
+            <Node name="ListviewDemo" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="ListviewDemo.Android" expanded="True">
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ListviewDemo.Android PreferredExecutionTarget="Android.nexus_6_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/ListviewDemo/ListviewDemo/MainPage.xaml.cs" relfile="ListviewDemo/MainPage.xaml.cs" line="125" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/ListviewDemo/ListviewDemo/MainPage.xaml.cs" relfile="ListviewDemo/MainPage.xaml.cs" line="111" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

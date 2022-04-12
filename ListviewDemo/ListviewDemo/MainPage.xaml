@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ListviewDemo"
+             x:Class="ListviewDemo.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="juniorTemplate">
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Show" CommandParameter="{Binding .}" Clicked="MenuItem_Clicked"/>
+                            </ViewCell.ContextActions>
+                            <Frame HasShadow="True" CornerRadius="10" BorderColor="LightGray" Margin="10" Padding="8">
+                                <!--<StackLayout Orientation="Horizontal">
+                                <StackLayout>
+                                    <Image Source="{Binding Image}" HeightRequest="50" WidthRequest="50" VerticalOptions="CenterAndExpand"/>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Label Text="{Binding Name}" TextColor="Black" FontSize="Title"/>
+                                    <Label Text="{Binding Standard}" TextColor="Gray" FontSize="Subtitle"/>
+                                </StackLayout>
+                            </StackLayout>-->
+                                <Grid BackgroundColor="LightGreen">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".2*"/>
+                                        <ColumnDefinition Width=".8*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Image}" Grid.RowSpan="2" Grid.Column="0"  HeightRequest="60" WidthRequest="60" VerticalOptions="CenterAndExpand"/>
+                                    <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="1" TextColor="Black" FontSize="Title"/>
+                                    <Label Text="{Binding Standard}" Grid.Row="1" Grid.Column="1" TextColor="Gray" FontSize="Subtitle"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                        <!--<ImageCell Text="{Binding Name}" Detail="{Binding Standard}" ImageSource="{Binding Image}"/>-->
+                    </DataTemplate>
+            <DataTemplate x:Key="seniorTemplate">
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Show" CommandParameter="{Binding .}" Clicked="MenuItem_Clicked"/>
+                            </ViewCell.ContextActions>
+                            <Frame HasShadow="True" CornerRadius="10" BorderColor="LightGray" Margin="10" Padding="8">
+                                <!--<StackLayout Orientation="Horizontal">
+                                <StackLayout>
+                                    <Image Source="{Binding Image}" HeightRequest="50" WidthRequest="50" VerticalOptions="CenterAndExpand"/>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Label Text="{Binding Name}" TextColor="Black" FontSize="Title"/>
+                                    <Label Text="{Binding Standard}" TextColor="Gray" FontSize="Subtitle"/>
+                                </StackLayout>
+                            </StackLayout>-->
+                                <Grid BackgroundColor="LightBlue">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".2*"/>
+                                        <ColumnDefinition Width=".8*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Image}" Grid.RowSpan="2" Grid.Column="0"  HeightRequest="60" WidthRequest="60" VerticalOptions="CenterAndExpand"/>
+                                    <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="1" TextColor="Black" FontSize="Title"/>
+                                    <Label Text="{Binding Standard}" Grid.Row="1" Grid.Column="1" TextColor="Gray" FontSize="Subtitle"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                        <!--<ImageCell Text="{Binding Name}" Detail="{Binding Standard}" ImageSource="{Binding Image}"/>-->
+                    </DataTemplate>
+            <local:StudentDTSelector x:Key="studentDTSelector"
+                                     JuniorTemplate="{StaticResource juniorTemplate}"
+                                     SeniorTemplate="{StaticResource seniorTemplate}"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <!--<Entry x:Name="entryName" Placeholder="Student Name"/>
+        <Entry x:Name="entryStd" Placeholder="Student Standard"/>
+        <Button Text="Add Student" Clicked="Button_Clicked"/>-->
+            <ListView x:Name="lstView"
+                  HasUnevenRows="True"
+                  IsPullToRefreshEnabled="True"
+                  RefreshControlColor="Blue"
+                  SelectedItem="{Binding SeectedStudent}"
+                  SeparatorVisibility="None"
+                  ItemTemplate="{StaticResource studentDTSelector}"
+                  ItemSelected="lstView_ItemSelected"
+                  ItemTapped="lstView_ItemTapped">
+                <!--Header="List of Strings" Footer="End of Srings"-->
+                <ListView.Header>
+                    <StackLayout Orientation="Horizontal" Padding="10" BackgroundColor="Green">
+                        <Label Text="Header" TextColor="White"/>
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.Footer>
+                    <StackLayout Orientation="Horizontal" Padding="10" BackgroundColor="Black" Spacing="10">
+                        <Label Text="Footer" TextColor="White"/>
+                    </StackLayout>
+                </ListView.Footer>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

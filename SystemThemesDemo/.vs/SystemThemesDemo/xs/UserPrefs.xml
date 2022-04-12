@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{67534775-AFA2-4E04-84BC-7BD4ED0F9EB6}|Default">
+  <MonoDevelop.Ide.ItemProperties.SystemThemesDemo.Android PreferredExecutionTarget="Android.RZ8R316Y3XX" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SystemThemesDemo/MainPage.xaml.cs">
+    <Files>
+      <File FileName="SystemThemesDemo/App.xaml" Line="48" Column="35" />
+      <File FileName="SystemThemesDemo/MainPage.xaml" Line="17" Column="54" />
+      <File FileName="SystemThemesDemo/MainPage.xaml.cs" Line="19" Column="4" />
+      <File FileName="SystemThemesDemo.Android/MainActivity.cs" />
+      <File FileName="SystemThemesDemo/App.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SystemThemesDemo" expanded="True">
+            <Node name="SystemThemesDemo" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SystemThemesDemo.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/SystemThemesDemo/SystemThemesDemo/MainPage.xaml.cs" relfile="SystemThemesDemo/MainPage.xaml.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

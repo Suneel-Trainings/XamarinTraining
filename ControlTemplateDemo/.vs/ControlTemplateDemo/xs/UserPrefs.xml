@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{AC5288AE-25F2-4D92-8882-EA32C49C52BD}|Default">
+  <MonoDevelop.Ide.ItemProperties.ControlTemplateDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A7318614-B197-42CD-8115-290A039796FF" />
+  <MonoDevelop.Ide.ItemProperties.ControlTemplateDemo.Android FirstBuild="True" PreferredExecutionTarget="Android.nexus_6_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ControlTemplateDemo/Templates/TemplateFive.xaml.cs">
+    <Files>
+      <File FileName="ControlTemplateDemo/MainPage.xaml.cs" Line="47" Column="53" />
+      <File FileName="ControlTemplateDemo/MainPage.xaml" Line="29" Column="41" />
+      <File FileName="ControlTemplateDemo/Templates/TemplateFive.xaml" Line="9" Column="22" />
+      <File FileName="ControlTemplateDemo/Templates/TemplateFive.xaml.cs" Line="21" Column="1" />
+      <File FileName="ControlTemplateDemo/Templates/TemplateFour.xaml" Line="21" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ControlTemplateDemo" expanded="True">
+            <Node name="ControlTemplateDemo" expanded="True">
+              <Node name="Templates" expanded="True">
+                <Node name="TemplateFive.xaml" expanded="True">
+                  <Node name="TemplateFive.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="ControlTemplateDemo.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

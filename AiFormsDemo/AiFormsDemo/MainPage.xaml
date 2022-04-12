@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:aiForms="clr-namespace:AiForms.Renderers;assembly=SettingsView"
+             x:Class="AiFormsDemo.MainPage">
+
+    <StackLayout Margin="10,50">
+        <aiForms:SettingsView HasUnevenRows="True">
+            <aiForms:Section Title="Section1" FooterText="Footer Info Is Here">
+                <aiForms:LabelCell Title="Title" HintText="Hint Text" ValueText="Value Text"/>
+                <aiForms:SwitchCell Title="Switch" On="true" Description="This is description." />
+                <aiForms:CheckboxCell Title="Checkbox" Checked="true" />
+            </aiForms:Section>
+            <aiForms:Section Title="Section1" FooterText="Footer Info Is Here">
+                <aiForms:LabelCell Title="Title" HintText="Hint Text" ValueText="Value Text"/>
+                <aiForms:SwitchCell Title="Switch" On="true"
+                                    Description="This is description." />
+                <aiForms:CheckboxCell Title="Checkbox" Checked="true" />
+                <aiForms:NumberPickerCell Title="NumberPicker" Min="0" Max="99" Number="15" PickerTitle="Select number" />
+                <aiForms:TimePickerCell Title="TimePicker" Format="HH:mm" Time="15:30" PickerTitle="Select time" />
+                <aiForms:DatePickerCell Title="DatePicker" Format="yyyy/MM/dd (ddd)" Date="2017/11/11" MinimumDate="2015/1/1" MaximumDate="2018/12/15" TodayText="Today's date"/>
+                <aiForms:EntryCell Title="EntryCell" ValueText="{Binding InputText.Value}" Placeholder="Input text" Keyboard="Email" TextAlignment="End" HintText="{Binding InputError.Value}" />
+
+                <aiForms:ButtonCell Title="Toggle Section" TitleColor="Blue" BackgroundColor="Silver"
+             TitleAlignment="Center" Command="{Binding SectionToggleCommand}" />
+            </aiForms:Section>
+            <!--<aiForms:Section>
+
+            </aiForms:Section>-->
+        </aiForms:SettingsView>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F6D68792-0FB3-4356-A9B2-7FF444068AE9}|Default">
+  <MonoDevelop.Ide.ItemProperties.CVSample.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CVSample/MainPage.xaml.cs">
+    <Files>
+      <File FileName="CVSample/MainPage.xaml" Line="9" Column="30" />
+      <File FileName="CVSample/MainPage.xaml.cs" Line="34" Column="95" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CVSample" expanded="True">
+            <Node name="CVSample" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CVSample.Android PreferredExecutionTarget="Android.nexus_6_r_11_0_-_api_30" />
+</Properties>

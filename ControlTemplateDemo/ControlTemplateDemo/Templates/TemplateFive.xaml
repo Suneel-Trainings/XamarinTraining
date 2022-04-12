@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<StackLayout BackgroundColor="LightBlue" Padding="10,50"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ControlTemplateDemo.Templates.TemplateFive">
+    <Entry Placeholder="Username"/>
+    <Entry Placeholder="Password" IsPassword="True"/>
+    <Button Text="Login"/>
+    <ContentPresenter/>
+    <Image x:Name="img"/>
+</StackLayout>

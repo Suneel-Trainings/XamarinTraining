@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:ai="clr-namespace:AiForms.Renderers;assembly=SettingsView"
+	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" 
+	prism:ViewModelLocator.AutowireViewModel="True" 
+	x:Class="Sample.Views.MainPage" Title="MainPage">
+    <ai:SettingsView>
+        <ai:Section HeaderHeight="10">
+            <ai:ButtonCell Title="SurveyPage" Command="{Binding GoToTest}"  CommandParameter="SurveyPage" />
+            <ai:ButtonCell Title="CustomFontTest" Command="{Binding GoToTest}"  CommandParameter="CustomFontTest" />
+            <ai:ButtonCell Title="RowManipulation" Command="{Binding GoToTest}"  CommandParameter="RowManipulation" />
+            <ai:ButtonCell Title="RowManipulationTemplate" Command="{Binding GoToTest}"  CommandParameter="RowManipulationTemplate" />
+            <ai:ButtonCell Title="ReorderTest" Command="{Binding GoToTest}"  CommandParameter="ReorderTest" />
+            <ai:ButtonCell Title="DataTemplateTest" Command="{Binding GoToTest}"  CommandParameter="DataTemplateTest" />
+            <ai:ButtonCell Title="SettingsView" Command="{Binding GoToPage}" CommandParameter="SettingsView" />
+            <ai:ButtonCell Title="DefaultPropTest" Command="{Binding GoToTest}"  CommandParameter="DefaultPropTest" />
+            <ai:ButtonCell Title="ParentPropTest" Command="{Binding GoToTest}"  CommandParameter="ParentPropTest" />
+            <ai:ButtonCell Title="CollectionChangedTest" Command="{Binding GoToTest}"  CommandParameter="CollectionChangedTest" />
+            <ai:ButtonCell Title="CustomCellTest" Command="{Binding GoToTest}"  CommandParameter="CustomCellTest" />
+            <ai:ButtonCell Title="LabelCellTest" Command="{Binding GoToTest}"  CommandParameter="LabelCellTest" />
+            <ai:ButtonCell Title="SwitchCellTest" Command="{Binding GoToTest}"  CommandParameter="SwitchCellTest" />
+            <ai:ButtonCell Title="PickerCellTest" Command="{Binding GoToTest}"  CommandParameter="PickerCellTest" />
+            <ai:ButtonCell Title="EntryCellTest" Command="{Binding GoToTest}"  CommandParameter="EntryCellTest" />
+            <ai:ButtonCell Title="ButtonCellTest" Command="{Binding GoToTest}"  CommandParameter="ButtonCellTest" />
+            <ai:ButtonCell Title="RadioCellTest" Command="{Binding GoToTest}"  CommandParameter="RadioCellTest" />
+            <ai:ButtonCell Title="RadioCellTemplateTest" Command="{Binding GoToTest}"  CommandParameter="RadioCellTemplateTest" />
+            <ai:ButtonCell Title="GlobalDataTemplate" Command="{Binding GoToTest}"  CommandParameter="GlobalDataTemplate" />
+            <ai:ButtonCell Title="FormsCellTest" Command="{Binding GoToTest}"  CommandParameter="FormsCellTest" />
+            <ai:ButtonCell Title="OnTableViewTest" Command="{Binding GoToTest}"  CommandParameter="OnTableViewTest" />            
+        </ai:Section>
+    </ai:SettingsView>
+</ContentPage>

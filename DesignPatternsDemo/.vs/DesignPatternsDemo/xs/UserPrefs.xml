@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{0B5D5BA1-8E24-488C-AE91-8269FEE14B36}|Default">
+  <MonoDevelop.Ide.ItemProperties.DesignPatternsDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatternsDemo/FacadePattern/Program.cs">
+    <Files>
+      <File FileName="DesignPatternsDemo/Program.cs" Line="13" Column="1" />
+      <File FileName="DesignPatternsDemo/AbstractFactoryPattern/Program.cs" />
+      <File FileName="DesignPatternsDemo/AdapterPattern/Program.cs" />
+      <File FileName="DesignPatternsDemo/FacadePattern/Program.cs" Line="58" Column="10" />
+      <File FileName="DesignPatternsDemo/FactoryPattern/Program.cs" Line="37" Column="10" />
+      <File FileName="DesignPatternsDemo/ProxyPattern/Program.cs" Line="68" Column="4" />
+      <File FileName="DesignPatternsDemo/RepositoryPattern/Program.cs" />
+      <File FileName="DesignPatternsDemo/BuilderPattern/Program.cs" Line="72" Column="8" />
+      <File FileName="DesignPatternsDemo/StatePattern/Program.cs" Line="85" Column="4" />
+      <File FileName="DesignPatternsDemo/ChainOfResponsibilityPattern/Program.cs" Line="90" Column="1" />
+      <File FileName="DesignPatternsDemo/StrategyPattern/Program.cs" Line="58" Column="4" />
+      <File FileName="DesignPatternsDemo/SingletonPattern/Program.cs" Line="33" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DesignPatternsDemo" expanded="True">
+            <Node name="DesignPatternsDemo" expanded="True">
+              <Node name="FacadePattern" expanded="True">
+                <Node name="Program.cs" selected="True" />
+              </Node>
+              <Node name="ProxyPattern" expanded="True" />
+              <Node name="SingletonPattern" expanded="True" />
+              <Node name="StatePattern" expanded="True" />
+              <Node name="StrategyPattern" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>response.Routes.FirstOrDefault().Legs[4].EndAddress</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/DesignPatternsDemo/DesignPatternsDemo/FactoryPattern/Program.cs" relfile="DesignPatternsDemo/FactoryPattern/Program.cs" line="43" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/DesignPatternsDemo/DesignPatternsDemo/FactoryPattern/Program.cs" relfile="DesignPatternsDemo/FactoryPattern/Program.cs" line="44" column="1" />
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/DesignPatternsDemo/DesignPatternsDemo/FacadePattern/Program.cs" relfile="DesignPatternsDemo/FacadePattern/Program.cs" line="69" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

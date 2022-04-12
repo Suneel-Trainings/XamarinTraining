@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ControlTemplateDemo.Controls.CardView">
+    <ContentView.Content>
+        <Frame HasShadow="True" CornerRadius="10" BorderColor="Gray">
+            <StackLayout>
+                <Label Text="text1" FontSize="Title"/>
+                <Label Text="text1" FontSize="Subtitle"/>
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

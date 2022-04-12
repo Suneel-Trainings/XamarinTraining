@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{46D6A567-0431-425B-B43D-28BBB3E73072}|Default">
+  <MonoDevelop.Ide.ItemProperties.MediaPickerSample.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MediaPickerSample/MainPage.xaml.cs">
+    <Files>
+      <File FileName="MediaPickerSample/MainPage.xaml.cs" Line="64" Column="17" />
+      <File FileName="MediaPickerSample.Android/Properties/AssemblyInfo.cs" Line="29" Column="65" />
+      <File FileName="MediaPickerSample.iOS/Info.plist" />
+      <File FileName="MediaPickerSample/MainPage.xaml" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MediaPickerSample" expanded="True">
+            <Node name="MediaPickerSample" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="MediaPickerSample.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="MediaPickerSample.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MediaPickerSample.Android PreferredExecutionTarget="Android.RZ8R316Y3XX" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Suneel/Documents/IBM-Xamarin-Training/MediaPickerSample/MediaPickerSample/MainPage.xaml.cs" relfile="MediaPickerSample/MainPage.xaml.cs" line="66" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

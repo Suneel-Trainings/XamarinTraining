@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{1B69E7D1-920F-4438-80CB-277308D1D525}|Default">
+  <MonoDevelop.Ide.ItemProperties.AiFormsDemo.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AiFormsDemo/MainPage.xaml">
+    <Files>
+      <File FileName="AiFormsDemo.iOS/AppDelegate.cs" Line="27" Column="59" />
+      <File FileName="AiFormsDemo.Android/MainActivity.cs" />
+      <File FileName="AiFormsDemo/MainPage.xaml" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AiFormsDemo" expanded="True">
+            <Node name="AiFormsDemo" expanded="True">
+              <Node name="MainPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AiFormsDemo.Android PreferredExecutionTarget="Android.RZ8R316Y3XX" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
